@@ -6,7 +6,7 @@ function Roadmap() {
 
   const settings = {
     dots: true,
-    arrows:true
+    arrows:true,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
