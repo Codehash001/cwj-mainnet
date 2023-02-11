@@ -103,7 +103,7 @@ export default function Base () {
         
         {/* Side Drawer Menu */}
       <div className ={
-        nav? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen p-10 ease-in duration-500 border-r-2 backdrop-filter backdrop-blur-md"
+        nav? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen p-10 ease-in duration-500 border-r-2 bg-gray-200 dark:bg-gray-700"
       :'fixed left-[-100%] top-0 p-10 ease-in duration-500 h-screen'
       }>
       <div className='flex w-full items-center justify-between'>
@@ -143,7 +143,7 @@ export default function Base () {
         </div>
 
         <div className='flex flex-col items-center justify-between'>
-                    <div className='ml-6'>
+                    <div className=''>
                         <Darkmodebutton/>
                     </div>
         </div>
@@ -232,7 +232,7 @@ export default function Base () {
         </button>
         
      <div className='flex flex-col items-end justify-end absolute bottom-0 -z-10 h-auto overflow-hidden w-full'>
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF7F50" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,149.3C384,171,480,213,576,240C672,267,768,277,864,282.7C960,288,1056,288,1152,261.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#FF7F50" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,149.3C384,171,480,213,576,240C672,267,768,277,864,282.7C960,288,1056,288,1152,261.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </div>
 
        </div>
