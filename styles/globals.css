@@ -13,6 +13,18 @@
   }
 }
 
+@layer utilities{
+.welcome{
+@apply relative
+}
+
+.welcome ::before{
+@apply content-['Welcome to Cafe ParadiseBean!']
+absolute bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent border-r-2 border-[#FF7F50] top-0 left-0 w-0 h-[100%]
+overflow-hidden animate-animate
+}
+}
+
 :root{
   --font-family: 'Roboto', sans-serif;
   --clr-c1: #FF7F50;

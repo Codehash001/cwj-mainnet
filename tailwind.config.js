@@ -25,7 +25,13 @@ module.exports = {
         'brand-light': 'var(--clr-c7)'
       },
       animation: {
-        'pulse-slow': 'pulse 10s linear infinite'
+        'pulse-slow': 'pulse 10s linear infinite',
+        animate :"animate 6s liner infinite",
+        
+      },
+      keyframes:{
+      animate:{'0% 10% 100%':{width:'0%'},
+      '70%,80%,90%':{width:'100%'} }
       },
       backgroundImage: (theme)=>(
         {
