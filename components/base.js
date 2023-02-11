@@ -46,7 +46,7 @@ export default function Base () {
     <>
     
     <Head>
-        <title>Coffee With Jesus - Demo</title>
+        <title>Coffee With Jesus</title>
         <meta name="Description" content="Coffe with Jesus - demo!" />
         <link rel="icon" href="/Logoicon.png" />
         
