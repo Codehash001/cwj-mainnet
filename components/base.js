@@ -47,7 +47,7 @@ export default function Base () {
     
     <Head>
         <title>Coffee With Jesus</title>
-        <meta name="Description" content="Coffe with Jesus - demo!" />
+        <meta name="Description" content="Coffe with Jesus" />
         <link rel="icon" href="/Logoicon.png" />
         
        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
