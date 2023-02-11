@@ -172,7 +172,7 @@ export default function Base () {
         {/* home texts */}
           <div className='w-auto flex flex-col items-center justify-start py-8 px-16'>
             <div className='flex flex-col items-center w-[300px]'>
-              <h1 className='font-Kanit tracking-wider mb-2 text-5xl leading-[55px] text-center'><span className='text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
+              <h1 className='font-Kanit tracking-wider mb-2 text-5xl leading-[55px] text-center'><span className='text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl tracking-none'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
               <button className='bg-black dark:bg-white px-6 py-2 rounded-md font-Archivo text-white dark:text-black mt-6 font-semibold filter shadow drop-shadow-lg'>
               MINT NOW
@@ -232,7 +232,7 @@ export default function Base () {
         </button>
         
      <div className='flex flex-col items-end justify-end absolute bottom-0 -z-10 h-auto overflow-hidden w-full'>
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#FF7F50" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,149.3C384,171,480,213,576,240C672,267,768,277,864,282.7C960,288,1056,288,1152,261.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 321"><path fill="#FF7F50" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,149.3C384,171,480,213,576,240C672,267,768,277,864,282.7C960,288,1056,288,1152,261.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </div>
 
        </div>
