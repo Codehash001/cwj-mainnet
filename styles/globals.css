@@ -19,7 +19,7 @@
 }
 
 .welcome ::before{
-@apply content-['Welcome to Cafe ParadiseBean!']
+@apply
 absolute bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent border-r-2 border-[#FF7F50] top-0 left-0 w-0 h-[100%]
 overflow-hidden animate-animate
 }
