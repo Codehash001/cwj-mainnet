@@ -3,7 +3,7 @@ const RPC_URL = process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL
 const config = {
   title: 'Dapp',
   description: 'minting Dapp',
-  contractAddress: '0xe703B7E445dFe32e80C2bb4cb8DFF3D4a12d75ff',
+  contractAddress: '0x92ccd40D345B52730837E8a9f9683D284BCdDf89',
   maxMintAmount_Public: 200,
   maxMintAmount_PreSale:3,
   preSalePrice:0.08,
@@ -12,7 +12,7 @@ const config = {
 
 const onboardOptions = {
   dappId: process.env.NEXT_PUBLIC_DAPP_ID,
-  networkId: 5, // Goerli
+  networkId: 1, 
   darkMode: true,
   walletSelect: {
     description:'Plaese select a wallet',

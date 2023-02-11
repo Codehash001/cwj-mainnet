@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Coffee With Jesus - Demo</title>
-        <meta name="Description" content="Coffe with Jesus - demo!" />
+        <title>Coffee With Jesus</title>
+        <meta name="Description" content="Coffe with Jesus - minting website!" />
         <link rel="icon" href="/Logoicon.png" />
       </Head>
       <Base/>

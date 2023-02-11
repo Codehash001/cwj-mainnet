@@ -1,19 +1,16 @@
 import React from 'react'
 import Slider from "react-slick";
 import Head from 'next/head';
-import Prarrow from './prarrow';
-import Nearrow from './Nearrow';
 
 function Roadmap() {
 
   const settings = {
     dots: true,
-    infinite: true,
+    arrows:true
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    nextArrow: <Nearrow/>,
-    prewArrow:<Prarrow/>,
     responsive:[
       {
         breakpoint : 1280,
@@ -46,7 +43,7 @@ function Roadmap() {
 	      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       </Head>
     <div id='roadmap' className='w-screen h-full md:px-16 flex flex-col items-center'>
-        <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold my-8'>Roadmap</h1>
+        <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-bold my-8'>Roadmap</h1>
     </div>
         {/* slider */}
 <Slider {...settings}>
