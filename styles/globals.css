@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body {
+    @apply dark:bg-[#1f1a22] bg-[#fdfcfc] ;
+    overflow-x: hidden ;
+    
+
+  }
+}
+
+:root{
+  --font-family: 'Roboto', sans-serif;
+  --clr-c1: #FF7F50;
+  --clr-c2: #d8e9a3;
+  --clr-c3: #fad46c;
+  --clr-c4: #ffde20;
+  --clr-c5: #9d4edd;
+  --clr-c6: #c77dff;
+  --clr-c7: #1f1a22;
+  --clr-yellow: #ff9e00;
+  --clr-blue: #07b9f5;
+  --clr-green: #50c45f;
+  --clr-selection-text: rgb(49, 36, 36);
+  --clr-selection-bg: rgb(255, 255, 255);
+
+}
+html{
+  
+  font-family:var(--font-family);
+
+}
+::selection{
+  background:var(--clr-selection-bg);
+  color:var(--clr-selection-text);
+}
+
+.swiper-slide {
+  text-align: center;
+  height:auto;
+  width:auto;
+  margin:auto;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 1500px)
+{
+.slick-slide > div 
+  {
+    margin: 0 48px;
+  }
+}
+
+@media (max-width: 720px)
+{
+.slick-slide > div 
+  {
+    margin: 0 8px;
+  }
+
+  .slick-list
+  {
+    overflow: hidden;
+    margin: 0 16px;
+    padding: 0 8px;
+    display: block;
+    position: relative;
+  }
+}
+
+
