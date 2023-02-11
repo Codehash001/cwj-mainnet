@@ -100,7 +100,7 @@ useEffect(() => {
   }
   return (
     <div id='mint'data-aos="fade">
-    <div className='flex flex-col items-center lg:mx-16 mx-2'>
+    <div className='flex flex-col items-center lg:mx-16 md:mr-0 mx-2 mr-[-8px]'>
         <div className='lg:w-auto w-full h-full lg:px-16 lg:py-16 filter backdrop-blur-sm rounded-lg'>
 
       
