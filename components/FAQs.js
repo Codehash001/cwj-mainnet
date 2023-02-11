@@ -33,14 +33,16 @@ export default function Faqs() {
         <div id='faq'className='md:mx-16 mx-2 p-6 my-[44px] rounded-lg'data-aos="none">
       <h1 className='md:text-[40px] text-[30px] bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-Archivo text-center uppercase font-bold tracking-wide mb-8'> Frequently Asked Questions</h1>
       {data.map((item)=>
-      <Accordion open={open === (item.id)} animate={customAnimation} key={item.id} className='my-4'>
+      <div  className='my-4 filter shadow drop-shadow-lg'>
+      <Accordion open={open === (item.id)} animate={customAnimation} key={item.id}>
         <AccordionHeader onClick={() => handleOpen(item.id)} className='text-black dark:text-white font-Archivo text-[21px]'>
           {item.title}
         </AccordionHeader>
         <AccordionBody className='text-justify dark:text-gray-300 text-gray-700 font-Archivo  text-[20px]'>
          {item.description}
         </AccordionBody>
-      </Accordion>)}
+      </Accordion>
+      </div>)}
     </div>
         </>
     )

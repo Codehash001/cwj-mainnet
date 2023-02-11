@@ -30,7 +30,7 @@ export default function Footer(){
         <h1 className='mx-2'>Team</h1>
     </Link>
     <Link className="cursor-pointer" activeClass ="active" to='faqs' spy={true} smooth={true} offset={-70} duration={500}>
-        <h1 className='mx-2'>FAq</h1>
+        <h1 className='mx-2'>FAQ</h1>
     </Link>
         
     </div>
