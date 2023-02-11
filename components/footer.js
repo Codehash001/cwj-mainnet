@@ -35,7 +35,7 @@ export default function Footer(){
         
     </div>
 
-    <div className="my-6 border border-gray-700 sm:mx-auto dark:border-gray-200 lg:my-8" />
+    <hr className="w-full my-6 border border-gray-700 sm:mx-auto dark:border-gray-200 lg:my-8" />
 
     <h1>All rights resereved , Coffee with Jesus 2023.</h1>
 </div>
