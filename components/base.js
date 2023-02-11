@@ -172,7 +172,7 @@ export default function Base () {
         {/* home texts */}
           <div className='w-auto flex flex-col items-center justify-start py-8 px-16'>
             <div className='flex flex-col items-center w-[300px]'>
-              <h1 className='font-Kanit tracking-widest mb-2 text-5xl leading-[55px] text-center'><span className='text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl tracking-wide'>A majestic </span><br/>
+              <h1 className='font-Kanit tracking-wider mb-2 text-5xl leading-[55px] text-center'><span className='text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
               <button className='bg-black dark:bg-white px-6 py-2 rounded-md font-Archivo text-white dark:text-black mt-6 font-semibold filter shadow drop-shadow-lg'>
               MINT NOW
