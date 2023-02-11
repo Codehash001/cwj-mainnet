@@ -1,4 +1,4 @@
-
+import {Link} from 'react-scroll/modules';
 
 export default function Footer(){
     return(
