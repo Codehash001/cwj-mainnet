@@ -157,9 +157,9 @@ export default function Base () {
 
     <div className="" id='home'data-aos="fade">
       <div className='hidden md:flex h-screen'>
-       <div className='w-full flex flex-row justify-between px-16 pt-[60px] '>
+       <div className='w-full flex flex-row justify-between px-16 pt-[80px] '>
         {/* veticle menu */}
-          <div className='w-[70px] h-[500px] py-6 flex flex-col items-center justify-center border border-gray-900 dark:border-white bg-[#fdfcfc] dark:bg-[#1f1a22] filter shadow drop-shadow-lg rounded-lg'> 
+          <div className='w-[70px] h-[560px] py-6 flex flex-col items-center justify-center border border-gray-900 dark:border-white bg-[#fdfcfc] dark:bg-[#1f1a22] filter shadow drop-shadow-lg rounded-lg'> 
            <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
               <a href='https://www.instagram.com/invites/contact/?i=1tdilz110ip1f&utm_content=qc8yqu1'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Instagram</h1></a>
               <a href='https://discord.gg/rBJfTDYE'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Discord</h1></a>
@@ -172,7 +172,7 @@ export default function Base () {
         {/* home texts */}
           <div className='w-auto flex flex-col items-center justify-start py-8 px-16'>
             <div className='flex flex-col items-center w-[300px]'>
-              <h1 className='font-Kanit  mb-2 text-5xl leading-[55px] text-center'><span className='text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl'>A majestic </span><br/>
+              <h1 className='font-Kanit  mb-2 text-5xl leading-[55px] text-center'><span className='text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent text-6xl tracking-wide'>A majestic </span><br/>
               collection of 300 unique and artistic tokens.</h1>
               <button className='bg-black dark:bg-white px-6 py-2 rounded-md font-Archivo text-white dark:text-black mt-6 font-semibold filter shadow drop-shadow-lg'>
               MINT NOW
