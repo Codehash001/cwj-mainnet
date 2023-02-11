@@ -134,7 +134,7 @@ export const PreSaleMint = async (mintAmount) => {
   if (AbleToMint <  mintAmount){
     return {
       success: false,
-      status: '📌 Exceeded max mint amount per wallet'  
+      status: '❌  Exceeded max mint amount per wallet'  
     }
   }
   const nonce = await web3.eth.getTransactionCount(
@@ -166,7 +166,7 @@ export const PreSaleMint = async (mintAmount) => {
     return {
       success: true,
       status: (
-        <a href={`https://goerli.etherscan.io/tx/${txHash}`} target="_blank">
+        <a href={`https://etherscan.io/tx/${txHash}`} target="_blank">
           <p className='underline'>✅ Check out your transaction on Etherscan ✅</p>
         </a>
       )
@@ -174,7 +174,7 @@ export const PreSaleMint = async (mintAmount) => {
   } catch (error) {
     return {
       success: false,
-      status: '😞 Smth went wrong:' + error.message
+      status: '😞 Ooops!:' + error.message
     }
   }
 }
@@ -241,7 +241,7 @@ export const whitelistedFreeMint = async (mintAmount) => {
     return {
       success: true,
       status: (
-        <a href={`https://goerli.etherscan.io/tx/${txHash}`} target="_blank">
+        <a href={`https://etherscan.io/tx/${txHash}`} target="_blank">
           <p className='underline'>✅ Check out your transaction on Etherscan ✅</p>
         </a>
       )

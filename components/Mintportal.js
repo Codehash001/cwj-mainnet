@@ -238,6 +238,25 @@ useEffect(() => {
                 </div>
               </div>
             </div>
+            {/* status */}
+            <div className="font-Kanit max-w-screen-sm mx-5">
+              {status && (
+              <div
+                className={`border ${
+                  status.success ? 'border-green-500 text-white' : 'border-red-600 text-white'
+                } rounded-md text-start h-full px-4 py-4 w-full mx-auto mt-8 md:mt-5"`}
+              >
+                <p className="flex flex-col space-y-2 text-sm md:text-base break-words ...">
+                  {status.message}
+                </p>
+              </div>
+            )}
+            </div> 
+
+            {/* contract address */}
+            <a>
+              <h1 className="font-medium font-kanit">contract address - {' '}<span className="hover:text-blue-400 hover:underline">{config.contractAddress}</span></h1>
+            </a>
         </div>
     </div>
   )
