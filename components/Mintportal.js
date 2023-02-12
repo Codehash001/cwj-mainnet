@@ -255,7 +255,7 @@ useEffect(() => {
               <div
                 className={`border ${
                   status.success ? 'border-green-500 text-white' : 'border-red-600 text-white'
-                } rounded-md text-start h-full px-4 py-4 w-full mx-auto mt-8 md:mt-5"`}
+                } rounded-md text-start h-full px-4 py-4 w-full mx-auto my-8 md:my-5"`}
               >
                 <p className="flex flex-col space-y-2 text-sm md:text-base break-words ...">
                   {status.message}
@@ -266,7 +266,12 @@ useEffect(() => {
 
             {/* contract address */}
             <a href='https://etherscan.io/address/0x92ccd40D345B52730837E8a9f9683D284BCdDf89#readContract'>
-              <h1 className="font-medium font-kanit break-words ...">Contract Address - {' '}<span className="hover:text-blue-400 hover:underline cursor-pointer">{config.contractAddress}</span></h1>
+              <h1 className="hidden md:flex font-medium font-kanit break-words ...">Contract Address - {' '}<span className="hover:text-blue-400 hover:underline cursor-pointer">{config.contractAddress}</span></h1>
+             <div className='flex w-auto h-auto md:hidden'>
+             	<div className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12">
+    			<img src='etherscansvg.svg' className='h-8 w-8 m-1'/>
+  		</div>
+             </div>
             </a>
         </div>
     </div>
