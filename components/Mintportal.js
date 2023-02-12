@@ -160,7 +160,7 @@ useEffect(() => {
   return (
     <div id='mint' className='flex flex-col items-center jusitify-center font-Kanit md:px-0 px-2 py-6 md:my-16' data-aos="fade">
         <div className='md:w-auto w-full py-6 md:px-6 rounded-md border border-gray-700 flex flex-col items-center'>
-            <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>
+            <h1 className='font-Archivo md:text-5xl text-3xl text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>
               {isPublicSale ? "Public Sale" : isPreSale? 'Whitelisted Pre-Sale': isFreeMint? 'Free GiveAway' : 'Will be Live soon!'}
             </h1>
             <h2 className='text-xl font-medium mt-1 mb-2'>{walletAddress
@@ -227,7 +227,7 @@ useEffect(() => {
                   </button> 
                 </div>
 
-                <h1 className='mt-5 text-xl font-medium'>Max mmount per Wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
+                <h1 className='mt-5 text-xl font-medium'>Max Amount per Wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
                 <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2 py-3'>
                   <h1>Total</h1>
                   <h1>{Number.parseFloat((isPublicSale? config.publicSalePrice * mintAmount : isPreSale? config.preSalePrice * mintAmount : 0).toFixed(4))} {' '} ETH</h1>
@@ -267,7 +267,7 @@ useEffect(() => {
             {/* contract address */}
             <a href='https://etherscan.io/address/0x92ccd40D345B52730837E8a9f9683D284BCdDf89#readContract'>
               <h1 className="hidden md:flex font-medium font-kanit break-words ...">Contract Address - {' '}<span className="hover:text-blue-400 hover:underline cursor-pointer">{config.contractAddress}</span></h1>
-             <div className='flex w-auto h-auto md:hidden'>
+             <div className='flex w-auto h-auto md:hidden mt-4'>
              	<div className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12">
     			<img src='etherscansvg.svg' className='h-8 w-8 m-1'/>
   		</div>
