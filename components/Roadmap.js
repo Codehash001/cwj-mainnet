@@ -43,7 +43,7 @@ function Roadmap() {
 	      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       </Head>
     <div id='roadmap' className='w-screen h-full md:px-16 flex flex-col items-center'>
-        <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-bold mt-8 mb-10'>Roadmap</h1>
+        <h1 className='font-Archivo text-5xl bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-bold mt-8 mb-12'>Roadmap</h1>
     </div>
         {/* slider */}
 <Slider {...settings}>

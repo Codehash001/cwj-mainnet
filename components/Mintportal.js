@@ -185,7 +185,7 @@ useEffect(() => {
                 {/* increment decrement buttons */}
                 <div className="font-Kanit flex items-center justify-evenly w-full md:mt-0 mt-4">
                   <button
-                    className="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
+                    className="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center text-black hover:shadow-lg bg-brand-01 font-bold rounded-full"
                     onClick={decrementMintAmount}
                     >
                      <svg
@@ -193,12 +193,12 @@ useEffect(() => {
                       className="h-6 w-6 md:h-6 md:w-6"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke="currentColor"
+                      stroke="#000"
                     >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth={2}
+                        strokeWidth={3}
                         d="M18 12H6"
                       />
                     </svg>
@@ -207,7 +207,7 @@ useEffect(() => {
                   {mintAmount}
                   </p>
                   <button
-                    className="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center text-black hover:shadow-lg bg-gray-300 font-bold rounded-full"
+                    className="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center text-black hover:shadow-lg bg-brand-01 font-bold rounded-full"
                     onClick={incrementMintAmount} 
                     >
                     <svg
@@ -215,19 +215,19 @@ useEffect(() => {
                       className="h-6 w-6 md:h-6 md:w-6"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke="currentColor"
+                      stroke="#000"
                     >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth={2}
+                        strokeWidth={3}
                         d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                       />
                     </svg>
                   </button> 
                 </div>
 
-                <h1 className='mt-5 text-xl font-medium'>Max Mint Amount per wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
+                <h1 className='mt-5 text-xl font-medium'>Max per wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
                 <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2 py-3'>
                   <h1>Total</h1>
                   <h1>{Number.parseFloat((isPublicSale? config.publicSalePrice * mintAmount : isPreSale? config.preSalePrice * mintAmount : 0).toFixed(4))} {' '} ETH</h1>
@@ -265,8 +265,8 @@ useEffect(() => {
             </div> 
 
             {/* contract address */}
-            <a>
-              <h1 className="font-medium font-kanit">contract address - {' '}<span className="hover:text-blue-400 hover:underline">{config.contractAddress}</span></h1>
+            <a href='https://etherscan.io/address/0x92ccd40D345B52730837E8a9f9683D284BCdDf89#readContract'>
+              <h1 className="font-medium font-kanit">Contract Address - {' '}<span className="hover:text-blue-400 hover:underline">{config.contractAddress}</span></h1>
             </a>
         </div>
     </div>
