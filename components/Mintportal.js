@@ -265,7 +265,7 @@ useEffect(() => {
             </div> 
 
             {/* contract address */}
-            <a target='_blank' href='https://etherscan.io/address/0x92ccd40D345B52730837E8a9f9683D284BCdDf89#readContract'>
+            <a target='_blank' rel="noreferrer" href='https://etherscan.io/address/0x92ccd40D345B52730837E8a9f9683D284BCdDf89#readContract'>
               <h1 className="hidden md:flex font-medium font-kanit break-words ...">Contract Address - {' '}<span className="hover:text-blue-400 hover:underline cursor-pointer">{config.contractAddress}</span></h1>
              <div className='flex w-auto h-auto md:hidden mt-4'>
              	<div className="bg-white rounded-full mx-2 shadow-lg hove:shadow-black/60 hover:rotate-12">

@@ -161,12 +161,12 @@ export default function Base () {
         {/* veticle menu */}
           <div className='w-[70px] h-[560px] py-6 flex flex-col items-center justify-center border border-gray-900 dark:border-white bg-[#fdfcfc] dark:bg-[#1f1a22] filter shadow drop-shadow-lg rounded-lg'> 
            <div className='flex flex-row justify-evenly -rotate-90 font-medium'>
-              <a target='_blank' href='https://www.instagram.com/invites/contact/?i=1tdilz110ip1f&utm_content=qc8yqu1'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Instagram</h1></a>
-              <a target='_blank' href='https://discord.gg/rBJfTDYE'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Discord</h1></a>
-              <a target='_blank' href='https://twitter.com/CoffeeWJesusNFT?t=Kh0eW_1sO1rqhOxCtOjcGw&s=09'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Twitter</h1></a>
-              <a target='_blank' href='https://linktr.ee/coffeewithjesusnft'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Linktree</h1></a>
-              <a target='_blank' href='https://opensea.io/collection/officialcoffeewjesusnft'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Opensea</h1></a>
-              <a target='_blank' href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Rarible</h1></a>
+              <a target='_blank' rel="noreferrer" href='https://www.instagram.com/invites/contact/?i=1tdilz110ip1f&utm_content=qc8yqu1'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Instagram</h1></a>
+              <a target='_blank' rel="noreferrer" href='https://discord.gg/rBJfTDYE'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Discord</h1></a>
+              <a target='_blank' rel="noreferrer" href='https://twitter.com/CoffeeWJesusNFT?t=Kh0eW_1sO1rqhOxCtOjcGw&s=09'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Twitter</h1></a>
+              <a target='_blank' rel="noreferrer" href='https://linktr.ee/coffeewithjesusnft'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Linktree</h1></a>
+              <a target='_blank' rel="noreferrer" href='https://opensea.io/collection/officialcoffeewjesusnft'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Opensea</h1></a>
+              <a target='_blank' rel="noreferrer" href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Rarible</h1></a>
             </div>
           </div> 
         {/* home texts */}
