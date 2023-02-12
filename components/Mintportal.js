@@ -227,7 +227,7 @@ useEffect(() => {
                   </button> 
                 </div>
 
-                <h1 className='mt-5 text-xl font-medium'>Max per wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
+                <h1 className='mt-5 text-xl font-medium'>Max mmount per Wallet:{' '}{isPublicSale?"No max" : maxMintAmount}</h1>
                 <div className='w-full flex flex-row items-center justify-between mt-5 border-t-2 border-b-2 py-3'>
                   <h1>Total</h1>
                   <h1>{Number.parseFloat((isPublicSale? config.publicSalePrice * mintAmount : isPreSale? config.preSalePrice * mintAmount : 0).toFixed(4))} {' '} ETH</h1>
