@@ -69,13 +69,13 @@ export default function Base () {
               <Link className="cursor-pointer" activeClass ="active" to='mint' spy={true} smooth={true} offset={-70} duration={500}>MINT</Link>
             </li>
             <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='roadmap' spy={true} smooth={true} offset={50} duration={500}>ROADMAP</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='roadmap' spy={true} smooth={true} offset={-70} duration={500}>ROADMAP</Link>
             </li>
             <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='team' spy={true} smooth={true} offset={50} duration={500}>TEAM</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='team' spy={true} smooth={true} offset={-70} duration={500}>TEAM</Link>
             </li>
             <li className='mx-5 text-[18px]  hover:tracking-wide hover:underline hover:underline-offset-8 font-medium'>
-              <Link className="cursor-pointer" activeClass ="active" to='faq' spy={true} smooth={true} offset={50} duration={500}>FAQ</Link>
+              <Link className="cursor-pointer" activeClass ="active" to='faq' spy={true} smooth={true} offset={-70} duration={500}>FAQ</Link>
             </li>
             {/* dark mode button */}
           <div className='flex items-center justify-between'>
@@ -218,7 +218,7 @@ export default function Base () {
 
        {/* mobile home */}
 
-       <div className='md:hidden flex flex-col items-center justify-cenetr w-full h-full px-2 pt-[60px]'>
+       <div className='md:hidden flex flex-col items-center justify-cenetr w-full h-full px-2 pt-[60px]' data-aos="fade">
 
        <img src='/webbanner.jpg' className='w-srceen-auto border-2 border-white rounded-lg mb-4'/>
 
