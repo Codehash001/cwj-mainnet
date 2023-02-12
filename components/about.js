@@ -14,7 +14,7 @@ function About() {
              <div className='w-full h-full bg-gradient-to-r from-purple-500 to-pink-500 flex flex-col items-center justify center md:mt-16 mt-8'data-aos="slide-right">
              <div className='px-6 py-4 border bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l md:flex md:flex-row flex-col items-center md:my-16 my-8'>
               <h1 className='font-Kanit md:text-2xl text-lg text-black md:mb-0 mb-4'>Join our Discord and get listed for free mint</h1>
-              <a href=''>
+              <a href='https://discord.gg/rBJfTDYE'>
               <button className='md:text-lg text-[20px] font-Archivo text-black text-medium px-4 py-2 border border-black md:rounded-full md:ml-8 ml-2 bg-white hover:bg-black hover:text-white '>Join Now</button>
               </a>
             </div>

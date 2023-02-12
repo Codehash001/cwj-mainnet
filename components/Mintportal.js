@@ -266,7 +266,7 @@ useEffect(() => {
 
             {/* contract address */}
             <a href='https://etherscan.io/address/0x92ccd40D345B52730837E8a9f9683D284BCdDf89#readContract'>
-              <h1 className="font-medium font-kanit">Contract Address - {' '}<span className="hover:text-blue-400 hover:underline">{config.contractAddress}</span></h1>
+              <h1 className="font-medium font-kanit">Contract Address - {' '}<span className="hover:text-blue-400 hover:underline cursor-pointer">{config.contractAddress}</span></h1>
             </a>
         </div>
     </div>
