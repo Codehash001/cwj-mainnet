@@ -168,8 +168,19 @@ useEffect(() => {
                 : 'Not connected'}
             </h2>
             <div className='flex md:flex-row flex-col items-center justify-between md:p-4'>
+            
+            <div className="relative w-auto mx-4">
+            
+            <div className="font-Kanit z-10 absolute top-2 left-2 opacity-80 filter backdrop-blur-lg text-base px-4 py-2 bg-black border 			border-brand-01 rounded-md flex items-center justify-center text-white font-semibold">
+                  <p>
+                    <span className="text-brand-05">{totalMinted}</span> /{' '} {maxSupply}
+                   
+                  </p>
+                </div>
               <img src='/nfts/nft.gif'
-              className='w-[280px] h-[280px] rounded-md border border-white mx-4'/>
+              className='w-[280px] h-[280px] rounded-md border border-white '/>
+             </div> 
+              
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
                 {/* increment decrement buttons */}
                 <div className="font-Kanit flex items-center justify-evenly w-full md:mt-0 mt-4">
