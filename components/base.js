@@ -166,7 +166,7 @@ export default function Base () {
               <a target='_blank' rel="noreferrer" href='https://twitter.com/CoffeeWJesusNFT?t=Kh0eW_1sO1rqhOxCtOjcGw&s=09'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Twitter</h1></a>
               <a target='_blank' rel="noreferrer" href='https://linktr.ee/coffeewithjesusnft'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Linktree</h1></a>
               <a target='_blank' rel="noreferrer" href='https://opensea.io/collection/officialcoffeewjesusnft'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Opensea</h1></a>
-              <a target='_blank' rel="noreferrer" href=''><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Rarible</h1></a>
+              <a target='_blank' rel="noreferrer" href='https://rarible.com/TheOfficialCoffeeWithJesusNFT/'><h1 className='mx-4 cursor-pointer hover:bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text hover:text-transparent hover:font-semibold'>Rarible</h1></a>
             </div>
           </div> 
         {/* home texts */}
