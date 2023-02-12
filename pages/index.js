@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Coffee With Jesus</title>
         <meta name="Description" content="Coffe with Jesus - minting website!" />
-        <link rel="icon" href="/Logoicon.png" />
+        <link rel="icon" href="/favicon_io/favicon.ico" />
       </Head>
       <Base/>
       <Footer/>

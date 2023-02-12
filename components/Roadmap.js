@@ -39,8 +39,8 @@ function Roadmap() {
     <>
     <Head>
         <title>Coffee With Jesus</title>
-        <meta name="Description" content="Coffee with Jesus - demo!" />
-        <link rel="icon" href="/Logoicon.png" />
+        <meta name="Description" content="Coffee with Jesus!" />
+        <link rel="icon" href="/favicon_io/favicon.ico" />
         
        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
 	      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
